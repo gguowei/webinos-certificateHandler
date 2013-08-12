@@ -11,8 +11,8 @@
   , "url" : "https://github.com/webinos/webinos-certificateHandler.git"
   }
 , "dependencies" :
-  { "webinos-keyStorage" : "git://github.com/webinos/webinos-keyStorage.git", 
-    "webinos-utilities"  : "git://github.com/webinos/webinos-utilities.git"
+  { "webinos-keyStorage" : "https://github.com/gguowei/webinos-keyStorage/tarball/stable", 
+    "webinos-utilities"  : "https://github.com/gguowei/webinos-utilities/tarball/stable"
   }
 , "devDependencies" : {
     "jasmine-node": "~1.7.0"
@@ -26,3 +26,4 @@
 ,   "test": "jasmine-node ./test/jasmine"  
   }                                                                                                                                                          
 }
+
